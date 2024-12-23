@@ -69,7 +69,7 @@ const ContactPage = () => {
                 id="name-field"
                 value={name}
                 onChange={(e) => handleInputChange(e, setName)}
-                className="w-full bg-white rounded  focus:bg-transparent border border-gray-300 focus:border-yellow-500 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white rounded text-black  focus:bg-transparent border border-gray-300 focus:border-yellow-500 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 placeholder="Enter your name"
                 required/>
             </div>
@@ -80,7 +80,7 @@ const ContactPage = () => {
                 id="email-field"
                 value={email}
                 onChange={(e) => handleInputChange(e, setEmail)}
-                className="w-full bg-white rounded focus:bg-transparent border border-gray-300 focus:border-yellow-500 text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                className="w-full bg-white text-black rounded focus:bg-transparent border border-gray-300 focus:border-yellow-500 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 placeholder="Enter your email"
                 required/>
             </div>
